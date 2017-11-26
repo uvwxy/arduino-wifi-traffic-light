@@ -1,6 +1,6 @@
 # Wifi Traffic Light
 
-This project enabled the [wifi traffic](https://www.thingiverse.com/thing:2463193) light to be set from outside via an API.
+This project enables the [wifi traffic](https://www.thingiverse.com/thing:2463193) light to be set from outside via an API.
 
 ## Building
 
@@ -43,7 +43,7 @@ curl --user ApiUserName:ApiUserPass "http://192.168.178.57/api/lights?red=1&yell
 ```
 
 ### Flashing
-With the following query parameters you can flip the on/off state every 10/n seconds:
+With the following query parameters you can flip the on/off state every *n/10* seconds:
 
 - `flashRed` *n* = (0...255)
 - `flashYellow` *n* = (0...255)

@@ -1,0 +1,11 @@
+#ifndef _CONFIG_H_
+#define _CONFIG_H_
+
+
+#define WIFI_SSID "WiFiName"
+#define WIFI_PASS "WiFiPass""
+
+#define HTTP_USER "ApiUserName"
+#define HTTP_PASS "ApiUserPass"
+
+#endif
